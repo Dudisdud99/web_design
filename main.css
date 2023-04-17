@@ -1,0 +1,28 @@
+nav {
+    background-color: gray;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav ul >li {
+    list-style: none;
+    border: 1px solid red;
+    padding: 10px;
+    gap:
+    border-radius: 5px;
+}
+
+nav :is(ul, li) {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul >li >ul {
+    display: none;
+}
+
+nav ul >li:hover >ul {
+    display: none;
+}
